@@ -1,5 +1,7 @@
 # onnx-speech-language-detection
 
+Cited: https://github.com/PINTO0309/whisper-onnx-cpu
+
 ```bash
 sudo apt-get update \
 && sudo apt-get upgrade -y \
