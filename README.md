@@ -29,3 +29,8 @@ sudo apt-get update \
     protobuf==3.20.3 \
     h5py==3.7.0
 ```
+
+```bash
+curl -o whisper/assets/tiny_decoder_11.onnx https://github.com/PINTO0309/onnx-speech-language-detection/releases/download/1.0/tiny_decoder_11.onnx
+curl -o whisper/assets/tiny_encoder_11.onnx https://github.com/PINTO0309/onnx-speech-language-detection/releases/download/1.0/tiny_encoder_11.onnx
+```
