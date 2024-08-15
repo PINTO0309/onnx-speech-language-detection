@@ -1,5 +1,7 @@
 # onnx-speech-language-detection
 
+A simple program that returns RFC5646 style language codes and country code symbols from microphone input or wav byte arrays. e.g. `"ja-JP"`, `"en-US"`, ...
+
 Cited: https://github.com/PINTO0309/whisper-onnx-cpu
 
 Cited: https://github.com/PINTO0309/PINTO_model_zoo/tree/main/381_Whisper
