@@ -907,7 +907,6 @@ def detect_lang_from_mic(device_index: int) -> str:
 
 def detect_lang_from_wav(wav_data: bytes) -> str:
     model = load_model(model_name)
-    recognizer = sr.Recognizer()
     wav_stream = io.BytesIO(wav_data)
     audio_array, _ = sf.read(wav_stream)
     audio_array = audio_array.astype(np.float32)
