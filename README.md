@@ -37,8 +37,8 @@ sudo apt-get update \
 ```
 
 ```bash
-curl -L -o whisper/assets/tiny_decoder_11.onnx https://github.com/PINTO0309/onnx-speech-language-detection/releases/download/1.0/tiny_decoder_11.onnx
-curl -L -o whisper/assets/tiny_encoder_11.onnx https://github.com/PINTO0309/onnx-speech-language-detection/releases/download/1.0/tiny_encoder_11.onnx
+curl -o whisper/assets/tiny_decoder_11.onnx https://github.com/PINTO0309/onnx-speech-language-detection/releases/download/1.0/tiny_decoder_11.onnx
+curl -o whisper/assets/tiny_encoder_11.onnx https://github.com/PINTO0309/onnx-speech-language-detection/releases/download/1.0/tiny_encoder_11.onnx
 ```
 
 - Japanese
